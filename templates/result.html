@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adjusted Image Result</title>
+</head>
+<body>
+    <h1>Adjusted Image Result</h1>
+    <h2>Original Image</h2>
+    <img src="{{ original_image_url }}" alt="Original Image" style="max-width: 500px;">
+    <h3>Original Color Distribution</h3>
+    <img src="{{ original_hist_url }}" alt="Original Color Distribution" style="max-width: 500px;">
+
+    <h2>Adjusted Image</h2>
+    <img src="{{ adjusted_image_url }}" alt="Adjusted Image" style="max-width: 500px;">
+    <h3>Adjusted Color Distribution</h3>
+    <img src="{{ adjusted_hist_url }}" alt="Adjusted Color Distribution" style="max-width: 500px;">
+
+    <p><a href="{{ url_for('index') }}">Upload another image</a></p>
+</body>
+</html>
