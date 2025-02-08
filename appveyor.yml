@@ -1,3 +1,4 @@
+image: Ubuntu
 language: python
 python:
   - "3.8"
